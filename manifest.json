@@ -1,0 +1,17 @@
+{
+  "name": "Clean FB urls",
+  "version": "1.0",
+  "description": "Cleans all shared Facebook urls to get directly to the real content.",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+  "background_page": "background.html",
+  "browser_action": {
+    "name": "Click to activate cleaning all Facebook urls",
+    "default_icon": "icon48_0.png"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "offline_enabled": true
+}
